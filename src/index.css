@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.article-grid {
+  grid-template-columns: [full-start] 1fr [wide-start] 140px [content-start] 720px [content-end] 140px [wide-end] 1fr [full-end];
+}
+
+.article-grid > * {
+  grid-column: content;
+}
+
+.article-grid > .full-bleed {
+  grid-column: full;
+}
+
+.article-grid > .wide-bleed {
+  grid-column: wide;
+}
+
+@media screen and (max-width: 1000px) {
+  .article-grid {
+    grid-template-columns: 18px 1fr 18px;
+    grid-template-areas:
+      ". content ."
+      "full full full"
+      ". wide .";
+  }
+}
