@@ -5,7 +5,7 @@ function App() {
     <main className="min-h-screen bg-gradient-to-r from-[#1B1F1D] to-[#2C3432] pb-12">
       <div className="article-grid text-md grid gap-y-4 font-serif leading-relaxed text-white md:gap-y-4 md:text-xl">
         <div className="full-bleed h-[500px]">
-          <img src="/webdev1.webp" className="h-full w-full object-cover" />
+          <img src="/img/css-grid-article/webdev1.webp" className="h-full w-full object-cover" />
         </div>
         <h1 className="wide-bleed mb-8 text-2xl md:text-5xl">
           From Webmasters to Web Wonders: The Hilarious Evolution of Frontend
@@ -34,10 +34,10 @@ function App() {
         </p>
 
         <div className="wide-bleed grid gap-4 md:grid-cols-2 md:grid-rows-2">
-          <img className="rounded-md object-cover" src="/webdev2.webp" />
-          <img className="rounded-md object-cover" src="/webdev3.webp" />
-          <img className="rounded-md object-cover" src="/webdev4.webp" />
-          <img className="rounded-md object-cover" src="/webdev5.webp" />
+          <img className="rounded-md object-cover" src="/img/css-grid-article/webdev2.webp" />
+          <img className="rounded-md object-cover" src="/img/css-grid-article/webdev3.webp" />
+          <img className="rounded-md object-cover" src="/img/css-grid-article/webdev4.webp" />
+          <img className="rounded-md object-cover" src="/img/css-grid-article/webdev5.webp" />
         </div>
 
         <p className="my-7 text-3xl italic">
@@ -88,7 +88,7 @@ function App() {
         </p>
 
         <div className="">
-          <img src="/webdev6.webp" className="w-full rounded-md object-cover" />
+          <img src="/img/css-grid-article/webdev6.webp" className="w-full rounded-md object-cover" />
         </div>
 
         <p>Yet amidst this chaotic crescendo, a realization dawned.</p>
